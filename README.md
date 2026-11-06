@@ -1,4 +1,4 @@
-# dishdirectory-com
+# Dish Directory
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-dishdirectory-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://dishdirectory.com/
+Dish Directory is an online platform that aggregates restaurant listings across the United States, providing detailed information on cuisines, contact details, menus, and user reviews. It helps users discover and compare over 12,000 restaurants, offering data sourced from public listings and partner integrations. The service emphasizes accurate, up-to-date restaurant data and aims to simplify the search for dining options.
+
+**Areas:** restaurants · food · data · listings · discovery
+
+## Dish Directory on APIs.io
+
+Everything profiled for Dish Directory is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dishdirectory-com/](https://apis.io/providers/dishdirectory-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [Dish Directory Academy API](https://apis.io/apis/dishdirectory-com/dishdirectory-com-academy-api/) — The Academy API from Dish Directory — 2 operation(s) for academy.
+- [Dish Directory Admin API](https://apis.io/apis/dishdirectory-com/dishdirectory-com-admin-api/) — The Admin API from Dish Directory — 138 operation(s) for admin.
+- [Dish Directory Categories API](https://apis.io/apis/dishdirectory-com/dishdirectory-com-categories-api/) — The Categories API from Dish Directory — 1 operation(s) for categories.
+- [Dish Directory Certificates API](https://apis.io/apis/dishdirectory-com/dishdirectory-com-certificates-api/) — The Certificates API from Dish Directory — 1 operation(s) for certificates.
+- [Dish Directory Listings API](https://apis.io/apis/dishdirectory-com/dishdirectory-com-listings-api/) — The Listings API from Dish Directory — 2 operation(s) for listings.
+- [Dish Directory Places API](https://apis.io/apis/dishdirectory-com/dishdirectory-com-places-api/) — The Places API from Dish Directory — 1 operation(s) for places.
+- [Dish Directory Product Categories API](https://apis.io/apis/dishdirectory-com/dishdirectory-com-product-categories-api/) — The Product Categories API from Dish Directory — 1 operation(s) for product categories.
+- [Dish Directory Products API](https://apis.io/apis/dishdirectory-com/dishdirectory-com-products-api/) — The Products API from Dish Directory — 2 operation(s) for products.
+- [Dish Directory Sources API](https://apis.io/apis/dishdirectory-com/dishdirectory-com-sources-api/) — The Sources API from Dish Directory — 1 operation(s) for sources.
+- [Dish Directory Stats API](https://apis.io/apis/dishdirectory-com/dishdirectory-com-stats-api/) — The Stats API from Dish Directory — 1 operation(s) for stats.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Dishdirectory Com Agentic Access](https://apis.io/agentic-access/dishdirectory-com/dishdirectory-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Certificate](https://apis.io/schemas/dishdirectory-com/dishdirectory-com-certificate/)
+- [Course](https://apis.io/schemas/dishdirectory-com/dishdirectory-com-course/)
+- [CourseDetail](https://apis.io/schemas/dishdirectory-com/dishdirectory-com-course-detail/)
+- [Listing](https://apis.io/schemas/dishdirectory-com/dishdirectory-com-listing/)
+- [ListingItem](https://apis.io/schemas/dishdirectory-com/dishdirectory-com-listing-item/)
+- [Product](https://apis.io/schemas/dishdirectory-com/dishdirectory-com-product/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Dishdirectory Com Context](https://apis.io/jsonld/dishdirectory-com/dishdirectory-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Dish Directory API Rules](https://apis.io/rules/dishdirectory-com/dishdirectory-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dishdirectory Com Domain Security](https://apis.io/security/dishdirectory-com/dishdirectory-com-domain-security/)
+- [Dishdirectory Com Vulnerability Disclosure](https://apis.io/security/dishdirectory-com/dishdirectory-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Dishdirectory Com Plans Pricing](https://apis.io/plans/dishdirectory-com/dishdirectory-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://dishdirectory.com/)
+- [Documentation](https://dishdirectory.com/guides)
+- [API reference](https://dishdirectory.com/developers)
+- [Pricing](https://dishdirectory.com/pricing)
+- [Support](https://dishdirectory.com/support)
+- [Terms of service](https://dishdirectory.com/terms)
+- [Privacy policy](https://dishdirectory.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 49.3** — developing · rubric 0.27.0 · scored 2026-11-05
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 51.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 27.9 |
+| Access clarity | 60.0 |
+
+**Agent readiness 47.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dishdirectory-com/](https://apis.io/providers/dishdirectory-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Dish Directory: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dishdirectory-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
